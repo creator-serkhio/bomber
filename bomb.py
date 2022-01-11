@@ -23,7 +23,7 @@ try:
     if NumberPhone == "" :
         print("\n[!] Please Enter Phone Number")
     else :
-        url = "https://app.snapp.taxi/login/?redirect_to=%2F"
+        url = "https://app.gap.im/login/?redirect_to=%2F"
         data = {"cellphone":"+98" + NumberPhone}
 
     while True:
